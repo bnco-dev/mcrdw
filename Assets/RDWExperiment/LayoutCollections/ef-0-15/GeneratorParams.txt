@@ -1,0 +1,6 @@
+generator: Constrained,
+dimensions: max path straight (meters): {5},
+edge factor: (8, 8),
+node spacing (meters): 0.15,
+path length (meters): 1.3,
+max straight (meters): 60

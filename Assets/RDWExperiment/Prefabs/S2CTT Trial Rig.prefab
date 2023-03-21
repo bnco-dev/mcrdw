@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2647961953967171379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2647961953967171383}
+  - component: {fileID: 2647961953967171376}
+  - component: {fileID: -5792601776653060234}
+  - component: {fileID: 5584469968546392311}
+  m_Layer: 0
+  m_Name: S2CTT Trial Rig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2647961953967171383
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2647961953967171379}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.7596822, y: -0.73339844, z: 2.1470754}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2647961953967171376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2647961953967171379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77d4e0340ca350d41bfc87e5c02e30c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  __trackSpaceTransform: {fileID: 2647961953967171383}
+  __bounds:
+    serializedVersion: 2
+    x: -5
+    y: -5
+    width: 10
+    height: 10
+  _bounds:
+    serializedVersion: 2
+    x: -5
+    y: -5
+    width: 10
+    height: 10
+  _trackSpaceTransform: {fileID: 2647961953967171383}
+--- !u!114 &-5792601776653060234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2647961953967171379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6374d2472b5c964e96e5e90b919b1ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useTempTargets: 1
+  tempTargetThresholdDegrees: 160
+  translationGainMode: 0
+  staticTranslationGainDirection: 0
+--- !u!114 &5584469968546392311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2647961953967171379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 509409977b6d6564b808e6bb58b65153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  angularCoRotMultiplier: 1.2594
+  angularAntiRotMultiplier: 0.681
+  transGainMagnifyMultiplier: 1.2896
+  transGainReduceMultiplier: 0.8724
+  curvatureGainDegreesPerMeter: 0
+  smoothingWindowSeconds: 0.5
